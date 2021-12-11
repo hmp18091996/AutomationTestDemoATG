@@ -2,336 +2,76 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 19:39:21,417] Step 01 - Select department dropdown
+      <![CDATA[[INFO ] [2021-12-11 20:55:22,586] Step 01 - Select department dropdown
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 19:39:21,513] Step 02 - Input to search textbox
+      <![CDATA[[INFO ] [2021-12-11 20:55:22,705] Step 02 - Input to search textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 19:39:21,631] Step 03 - Click to search button -> move search page
+      <![CDATA[[INFO ] [2021-12-11 20:55:22,824] Step 03 - Click to search button -> move to listPage
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 19:39:24,881] Step 04 - Select language
+      <![CDATA[[INFO ] [2021-12-11 20:55:26,168] Step 04 - Select language
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 19:39:27,234] Step 04 - Verify page have paging
+      <![CDATA[[INFO ] [2021-12-11 20:55:28,489] Step 05 - Verify page have paging
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 19:39:32,499]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-12-11 20:55:28,526] Step 06 -Verify the result displays exactly 16 items on each page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 19:39:37,682]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-12-11 20:55:28,656] Step 01 - click to logo amazon -> move home page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 19:39:42,881]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-12-11 20:55:29,842] Step 02 - Select department dropdown
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 19:39:48,092]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-12-11 20:55:29,911] Step 03 - input to search textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 19:39:53,274]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-12-11 20:55:29,987] Step 04 - click to search button -> move to listPage
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 19:39:58,468]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-12-11 20:55:32,131] Step 05 - Select language
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 19:40:03,670]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-12-11 20:55:34,665] Step 06 - select 'Publication Date' in Sort dropdown
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 19:40:08,852]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-12-11 20:55:34,804] Step 07 - verify the result is sorted by Publication date
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 19:40:14,012]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-12-11 20:55:35,767]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 19:40:19,213]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-12-11 20:55:35,769] OS name = windows 10
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 19:40:24,379]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:40:29,576]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:40:34,791]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:40:39,960]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:40:45,126]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:40:50,306]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:40:55,492]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:41:00,680]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:41:05,861]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:41:11,068]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:41:16,234]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:41:21,404]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:41:26,572]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:41:31,766]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:41:36,975]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:41:42,167]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:41:47,374]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:41:52,566]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:41:57,729]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:42:02,890]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:42:08,049]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:42:13,219]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:42:18,408]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:42:23,591]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:42:28,774]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:42:33,976]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:42:39,145]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:42:44,326]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:42:49,519]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:42:54,691]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:42:59,891]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:43:05,057]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:43:10,256]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:43:15,433]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:43:20,621]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:43:25,781]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:43:30,989]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:43:36,190]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:43:41,371]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:43:46,575]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:43:51,770]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:43:56,974]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:44:02,166]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:44:07,356]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:44:12,568]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:44:17,745]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:44:22,911]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:44:28,076]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:44:33,267]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:44:38,449]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:44:43,646]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:44:48,839]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:44:54,041]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:44:59,230]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:45:04,408]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:45:09,595]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:45:14,805]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:45:20,018]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:45:25,219]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:45:30,395]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:45:35,578]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:45:40,744]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:45:45,907]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:45:51,102]  -------------------------- PASSED -------------------------- 
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:45:54,442] Step 04 - Select language
-<br>]]>
-    </line>
-    <line>
-      <![CDATA[[INFO ] [2021-12-11 19:45:58,015]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-12-11 20:55:35,769] Driver instance name = windows 10
 <br>]]>
     </line>
   </reporter-output>
-  <suite name="Demo" duration-ms="401120" started-at="2021-12-11T12:39:17Z" finished-at="2021-12-11T12:45:58Z">
+  <suite name="Demo" duration-ms="17560" started-at="2021-12-11T13:55:18Z" finished-at="2021-12-11T13:55:36Z">
     <groups>
     </groups>
-    <test name="Run" duration-ms="401120" started-at="2021-12-11T12:39:17Z" finished-at="2021-12-11T12:45:58Z">
-      <class name="com.amazon.demo.common_01_RegisterAccount">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.amazon.demo.common_01_RegisterAccount@1deb2c43]" name="beforeClass" is-config="true" duration-ms="3783" started-at="2021-12-11T12:39:17Z" finished-at="2021-12-11T12:39:21Z">
+    <test name="Run" duration-ms="17560" started-at="2021-12-11T13:55:18Z" finished-at="2021-12-11T13:55:36Z">
+      <class name="com.amazon.demo.demo_01">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.amazon.demo.demo_01@2b27cc70]" name="beforeClass" is-config="true" duration-ms="3600" started-at="2021-12-11T13:55:18Z" finished-at="2021-12-11T13:55:22Z">
           <params>
             <param index="0">
               <value>
@@ -347,343 +87,83 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items()[pri:0, instance:com.amazon.demo.common_01_RegisterAccount@1deb2c43]" name="demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items" duration-ms="389759" started-at="2021-12-11T12:39:21Z" finished-at="2021-12-11T12:45:51Z">
+        <test-method status="PASS" signature="demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items()[pri:0, instance:com.amazon.demo.demo_01@2b27cc70]" name="demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items" duration-ms="6023" started-at="2021-12-11T13:55:22Z" finished-at="2021-12-11T13:55:28Z">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 19:39:21,417] Step 01 - Select department dropdown
+              <![CDATA[[INFO ] [2021-12-11 20:55:22,586] Step 01 - Select department dropdown
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 19:39:21,513] Step 02 - Input to search textbox
+              <![CDATA[[INFO ] [2021-12-11 20:55:22,705] Step 02 - Input to search textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 19:39:21,631] Step 03 - Click to search button -> move search page
+              <![CDATA[[INFO ] [2021-12-11 20:55:22,824] Step 03 - Click to search button -> move to listPage
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 19:39:24,881] Step 04 - Select language
+              <![CDATA[[INFO ] [2021-12-11 20:55:26,168] Step 04 - Select language
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 19:39:27,234] Step 04 - Verify page have paging
+              <![CDATA[[INFO ] [2021-12-11 20:55:28,489] Step 05 - Verify page have paging
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 19:39:32,499]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:39:37,682]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:39:42,881]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:39:48,092]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:39:53,274]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:39:58,468]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:40:03,670]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:40:08,852]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:40:14,012]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:40:19,213]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:40:24,379]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:40:29,576]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:40:34,791]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:40:39,960]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:40:45,126]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:40:50,306]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:40:55,492]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:41:00,680]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:41:05,861]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:41:11,068]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:41:16,234]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:41:21,404]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:41:26,572]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:41:31,766]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:41:36,975]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:41:42,167]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:41:47,374]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:41:52,566]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:41:57,729]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:42:02,890]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:42:08,049]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:42:13,219]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:42:18,408]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:42:23,591]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:42:28,774]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:42:33,976]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:42:39,145]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:42:44,326]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:42:49,519]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:42:54,691]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:42:59,891]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:43:05,057]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:43:10,256]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:43:15,433]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:43:20,621]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:43:25,781]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:43:30,989]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:43:36,190]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:43:41,371]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:43:46,575]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:43:51,770]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:43:56,974]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:44:02,166]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:44:07,356]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:44:12,568]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:44:17,745]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:44:22,911]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:44:28,076]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:44:33,267]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:44:38,449]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:44:43,646]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:44:48,839]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:44:54,041]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:44:59,230]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:45:04,408]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:45:09,595]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:45:14,805]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:45:20,018]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:45:25,219]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:45:30,395]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:45:35,578]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:45:40,744]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:45:45,907]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-11 19:45:51,102]  -------------------------- PASSED -------------------------- 
+              <![CDATA[[INFO ] [2021-12-11 20:55:28,526] Step 06 -Verify the result displays exactly 16 items on each page
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items -->
-        <test-method status="PASS" signature="demo_02_VerifyResultListCanBeSortedOnDemand()[pri:0, instance:com.amazon.demo.common_01_RegisterAccount@1deb2c43]" name="demo_02_VerifyResultListCanBeSortedOnDemand" duration-ms="6816" started-at="2021-12-11T12:45:51Z" finished-at="2021-12-11T12:45:58Z">
+        <test-method status="PASS" signature="demo_02_VerifyResultListCanBeSortedOnDemand()[pri:0, instance:com.amazon.demo.demo_01@2b27cc70]" name="demo_02_VerifyResultListCanBeSortedOnDemand" duration-ms="7113" started-at="2021-12-11T13:55:28Z" finished-at="2021-12-11T13:55:35Z">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 19:45:54,442] Step 04 - Select language
+              <![CDATA[[INFO ] [2021-12-11 20:55:28,656] Step 01 - click to logo amazon -> move home page
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 19:45:58,015]  -------------------------- PASSED -------------------------- 
+              <![CDATA[[INFO ] [2021-12-11 20:55:29,842] Step 02 - Select department dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-11 20:55:29,911] Step 03 - input to search textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-11 20:55:29,987] Step 04 - click to search button -> move to listPage
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-11 20:55:32,131] Step 05 - Select language
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-11 20:55:34,665] Step 06 - select 'Publication Date' in Sort dropdown
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-11 20:55:34,804] Step 07 - verify the result is sorted by Publication date
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-11 20:55:35,767]  -------------------------- PASSED -------------------------- 
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- demo_02_VerifyResultListCanBeSortedOnDemand -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.amazon.demo.common_01_RegisterAccount@1deb2c43]" name="afterClass" is-config="true" duration-ms="669" started-at="2021-12-11T12:45:58Z" finished-at="2021-12-11T12:45:58Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.amazon.demo.demo_01@2b27cc70]" name="afterClass" is-config="true" duration-ms="717" started-at="2021-12-11T13:55:35Z" finished-at="2021-12-11T13:55:36Z">
           <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-12-11 20:55:35,769] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-11 20:55:35,769] Driver instance name = windows 10
+<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.amazon.demo.common_01_RegisterAccount -->
+      </class> <!-- com.amazon.demo.demo_01 -->
     </test> <!-- Run -->
   </suite> <!-- Demo -->
 </testng-results>

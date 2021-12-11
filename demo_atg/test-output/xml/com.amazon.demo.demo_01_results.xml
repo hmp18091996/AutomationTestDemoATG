@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.136">
+  <properties />
+  
+  
+            <testcase name="demo_02_VerifyResultListCanBeSortedOnDemand" time="7.113" classname="com.amazon.demo.demo_01" />
+                <testcase name="demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items" time="6.023" classname="com.amazon.demo.demo_01" />
+      
+</testsuite>

@@ -102,12 +102,12 @@
                     <div class="method-list-content passed suite-Demo">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Demo" title="com.amazon.demo.common_01_RegisterAccount" hash-for-method="demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items">demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo" title="com.amazon.demo.demo_01" hash-for-method="demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items">demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Demo" title="com.amazon.demo.common_01_RegisterAccount" hash-for-method="demo_02_VerifyResultListCanBeSortedOnDemand">demo_02_VerifyResultListCanBeSortedOnDemand</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Demo" title="com.amazon.demo.demo_01" hash-for-method="demo_02_VerifyResultListCanBeSortedOnDemand">demo_02_VerifyResultListCanBeSortedOnDemand</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Demo -->
@@ -125,7 +125,7 @@
           <div class="suite-Demo-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.amazon.demo.common_01_RegisterAccount</span>
+              <span class="class-name">com.amazon.demo.demo_01</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -158,12 +158,13 @@
     &lt;listener class-name=&quot;commons.MethodListener&quot;/&gt;
     &lt;listener class-name=&quot;reportConfig.ExtentReportListener&quot;/&gt;
     &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Run&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome_ui&quot;/&gt;
     &lt;parameter name=&quot;url&quot; value=&quot;https://www.amazon.com&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.amazon.demo.common_01_RegisterAccount&quot;/&gt;
+      &lt;class name=&quot;com.amazon.demo.demo_01&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Run --&gt;
 &lt;/suite&gt; &lt;!-- Demo --&gt;
@@ -205,18 +206,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items')
-data.setCell(0, 2, 'com.amazon.demo.common_01_RegisterAccount')
-data.setCell(0, 3, 389759);
+data.setCell(0, 1, 'demo_02_VerifyResultListCanBeSortedOnDemand')
+data.setCell(0, 2, 'com.amazon.demo.demo_01')
+data.setCell(0, 3, 7113);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'demo_02_VerifyResultListCanBeSortedOnDemand')
-data.setCell(1, 2, 'com.amazon.demo.common_01_RegisterAccount')
-data.setCell(1, 3, 6816);
+data.setCell(1, 1, 'demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items')
+data.setCell(1, 2, 'com.amazon.demo.demo_01')
+data.setCell(1, 3, 6023);
 window.suiteTableData['Demo']= { tableData: data, tableDiv: 'times-div-Demo'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Demo">
               </div> <!-- times-div-Demo -->
             </div> <!-- times-div -->
@@ -228,174 +229,40 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items</span>
+              <span class="reporter-method-name">demo_02_VerifyResultListCanBeSortedOnDemand</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:39:21,417] Step 01 - Select department dropdown
+                <span class="reporter-method-output">[INFO ] [2021-12-11 20:55:28,656] Step 01 - click to logo amazon -> move home page
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:39:21,513] Step 02 - Input to search textbox
+                <span class="reporter-method-output">[INFO ] [2021-12-11 20:55:29,842] Step 02 - Select department dropdown
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:39:21,631] Step 03 - Click to search button -> move search page
+                <span class="reporter-method-output">[INFO ] [2021-12-11 20:55:29,911] Step 03 - input to search textbox
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:39:24,881] Step 04 - Select language
+                <span class="reporter-method-output">[INFO ] [2021-12-11 20:55:29,987] Step 04 - click to search button -> move to listPage
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:39:27,234] Step 04 - Verify page have paging
+                <span class="reporter-method-output">[INFO ] [2021-12-11 20:55:32,131] Step 05 - Select language
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:39:32,499]  -------------------------- PASSED -------------------------- 
+                <span class="reporter-method-output">[INFO ] [2021-12-11 20:55:34,665] Step 06 - select 'Publication Date' in Sort dropdown
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:39:37,682]  -------------------------- PASSED -------------------------- 
+                <span class="reporter-method-output">[INFO ] [2021-12-11 20:55:34,804] Step 07 - verify the result is sorted by Publication date
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:39:42,881]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:39:48,092]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:39:53,274]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:39:58,468]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:40:03,670]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:40:08,852]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:40:14,012]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:40:19,213]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:40:24,379]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:40:29,576]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:40:34,791]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:40:39,960]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:40:45,126]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:40:50,306]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:40:55,492]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:41:00,680]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:41:05,861]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:41:11,068]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:41:16,234]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:41:21,404]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:41:26,572]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:41:31,766]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:41:36,975]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:41:42,167]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:41:47,374]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:41:52,566]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:41:57,729]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:42:02,890]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:42:08,049]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:42:13,219]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:42:18,408]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:42:23,591]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:42:28,774]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:42:33,976]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:42:39,145]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:42:44,326]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:42:49,519]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:42:54,691]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:42:59,891]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:43:05,057]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:43:10,256]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:43:15,433]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:43:20,621]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:43:25,781]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:43:30,989]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:43:36,190]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:43:41,371]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:43:46,575]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:43:51,770]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:43:56,974]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:44:02,166]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:44:07,356]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:44:12,568]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:44:17,745]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:44:22,911]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:44:28,076]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:44:33,267]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:44:38,449]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:44:43,646]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:44:48,839]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:44:54,041]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:44:59,230]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:45:04,408]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:45:09,595]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:45:14,805]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:45:20,018]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:45:25,219]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:45:30,395]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:45:35,578]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:45:40,744]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:45:45,907]  -------------------------- PASSED -------------------------- 
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:45:51,102]  -------------------------- PASSED -------------------------- 
+                <span class="reporter-method-output">[INFO ] [2021-12-11 20:55:35,767]  -------------------------- PASSED -------------------------- 
 <br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">demo_02_VerifyResultListCanBeSortedOnDemand</span>
+              <span class="reporter-method-name">demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:45:54,442] Step 04 - Select language
+                <span class="reporter-method-output">[INFO ] [2021-12-11 20:55:22,586] Step 01 - Select department dropdown
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-11 19:45:58,015]  -------------------------- PASSED -------------------------- 
+                <span class="reporter-method-output">[INFO ] [2021-12-11 20:55:22,705] Step 02 - Input to search textbox
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-11 20:55:22,824] Step 03 - Click to search button -> move to listPage
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-11 20:55:26,168] Step 04 - Select language
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-11 20:55:28,489] Step 05 - Verify page have paging
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-11 20:55:28,526] Step 06 -Verify the result displays exactly 16 items on each page
 <br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -414,22 +281,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.amazon.demo.common_01_RegisterAccount</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.amazon.demo.demo_01</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass(chrome_ui, https://www.amazon.com)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items</span>
-                <span class="method-start">3789 ms</span>
+                <span class="method-start">3607 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">demo_02_VerifyResultListCanBeSortedOnDemand</span>
-                <span class="method-start">393616 ms</span>
+                <span class="method-start">9711 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">400434 ms</span>
+                <span class="method-start">16825 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -25,6 +25,7 @@ public class demo_01 extends AbstractTest {
 	String Keyword = "apple";
 	String language = "English";
 	String sortOption = "Publication Date";
+	int count = 0;
 
 	@Parameters({ "browser", "url" })
 	@BeforeClass
@@ -53,9 +54,10 @@ public class demo_01 extends AbstractTest {
 		assertTrue(listProductPage.isListItemsHavePaging());
 
 		log.info("Step 06 -Verify the result displays exactly 16 items on each page");
-		while (listProductPage.isNextButtonEnalbe()) {
+		while (listProductPage.isNextButtonEnalbe() && count == 4) {
 			listProductPage.clickToNextButton();
 			verifyTrue(listProductPage.isPaginatedIfThereAreThan16Items());
+			count ++;
 		}
 	}
 

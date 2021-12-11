@@ -373,3 +373,23 @@
 [INFO ] [2021-12-11 19:45:51,102]  -------------------------- PASSED -------------------------- 
 [INFO ] [2021-12-11 19:45:54,442] Step 04 - Select language
 [INFO ] [2021-12-11 19:45:58,015]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-11 20:55:11,215] Step 01 - Select department dropdown
+[INFO ] [2021-12-11 20:55:11,305] Step 02 - Input to search textbox
+[INFO ] [2021-12-11 20:55:11,426] Step 03 - Click to search button -> move to listPage
+[INFO ] [2021-12-11 20:55:15,391] Step 04 - Select language
+[INFO ] [2021-12-11 20:55:22,586] Step 01 - Select department dropdown
+[INFO ] [2021-12-11 20:55:22,705] Step 02 - Input to search textbox
+[INFO ] [2021-12-11 20:55:22,824] Step 03 - Click to search button -> move to listPage
+[INFO ] [2021-12-11 20:55:26,168] Step 04 - Select language
+[INFO ] [2021-12-11 20:55:28,489] Step 05 - Verify page have paging
+[INFO ] [2021-12-11 20:55:28,526] Step 06 -Verify the result displays exactly 16 items on each page
+[INFO ] [2021-12-11 20:55:28,656] Step 01 - click to logo amazon -> move home page
+[INFO ] [2021-12-11 20:55:29,842] Step 02 - Select department dropdown
+[INFO ] [2021-12-11 20:55:29,911] Step 03 - input to search textbox
+[INFO ] [2021-12-11 20:55:29,987] Step 04 - click to search button -> move to listPage
+[INFO ] [2021-12-11 20:55:32,131] Step 05 - Select language
+[INFO ] [2021-12-11 20:55:34,665] Step 06 - select 'Publication Date' in Sort dropdown
+[INFO ] [2021-12-11 20:55:34,804] Step 07 - verify the result is sorted by Publication date
+[INFO ] [2021-12-11 20:55:35,767]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-11 20:55:35,769] OS name = windows 10
+[INFO ] [2021-12-11 20:55:35,769] Driver instance name = windows 10
