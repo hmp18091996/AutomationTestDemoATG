@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.amazon.demo.common_01_RegisterAccount">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="demo_02_VerifyResultListCanBeSortedOnDemand"/>
+          <include name="demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items"/>
+        </methods>
+      </class> <!-- com.amazon.demo.common_01_RegisterAccount -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

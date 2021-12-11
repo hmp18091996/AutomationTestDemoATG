@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Demo" parallel="false">
+
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="reportConfig.ExtentReportListener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listen class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<test name="Run">
+		<parameter name="browser" value="chrome_ui" />
+		<parameter name="url" value="https://www.amazon.com" />
+		<classes>
+			<class name="com.amazon.demo.common_01_RegisterAccount" />
+		</classes>
+	</test> b
+
+</suite> <!-- Suite --> 
+  

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BANK GURLU]">
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="reportConfig.ExtentReportListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Run(failed)">
+    <parameter name="browser" value="chrome_ui"/>
+    <parameter name="url" value="https://www.amazon.com"/>
+    <classes>
+      <class name="com.amazon.demo.common_01_RegisterAccount">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items"/>
+        </methods>
+      </class> <!-- com.amazon.demo.common_01_RegisterAccount -->
+    </classes>
+  </test> <!-- Run(failed) -->
+</suite> <!-- Failed suite [BANK GURLU] -->
