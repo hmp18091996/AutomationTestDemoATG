@@ -54,7 +54,7 @@ public class demo_01 extends AbstractTest {
 		assertTrue(listProductPage.isListItemsHavePaging());
 
 		log.info("Step 06 -Verify the result displays exactly 16 items on each page");
-		while (listProductPage.isNextButtonEnalbe() && count == 4) {
+		while (listProductPage.isNextButtonEnalbe() && count <= 4) {
 			listProductPage.clickToNextButton();
 			verifyTrue(listProductPage.isPaginatedIfThereAreThan16Items());
 			count ++;

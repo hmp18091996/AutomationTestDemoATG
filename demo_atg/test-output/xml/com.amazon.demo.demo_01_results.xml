@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="13.136">
+           time="41.059">
   <properties />
   
   
-            <testcase name="demo_02_VerifyResultListCanBeSortedOnDemand" time="7.113" classname="com.amazon.demo.demo_01" />
-                <testcase name="demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items" time="6.023" classname="com.amazon.demo.demo_01" />
+            <testcase name="demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items" time="32.667" classname="com.amazon.demo.demo_01" />
+                <testcase name="demo_02_VerifyResultListCanBeSortedOnDemand" time="8.392" classname="com.amazon.demo.demo_01" />
       
 </testsuite>

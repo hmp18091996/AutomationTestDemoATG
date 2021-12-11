@@ -2,76 +2,96 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 20:55:22,586] Step 01 - Select department dropdown
+      <![CDATA[[INFO ] [2021-12-11 21:06:02,126] Step 01 - Select department dropdown
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 20:55:22,705] Step 02 - Input to search textbox
+      <![CDATA[[INFO ] [2021-12-11 21:06:02,243] Step 02 - Input to search textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 20:55:22,824] Step 03 - Click to search button -> move to listPage
+      <![CDATA[[INFO ] [2021-12-11 21:06:02,393] Step 03 - Click to search button -> move to listPage
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 20:55:26,168] Step 04 - Select language
+      <![CDATA[[INFO ] [2021-12-11 21:06:06,257] Step 04 - Select language
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 20:55:28,489] Step 05 - Verify page have paging
+      <![CDATA[[INFO ] [2021-12-11 21:06:08,749] Step 05 - Verify page have paging
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 20:55:28,526] Step 06 -Verify the result displays exactly 16 items on each page
+      <![CDATA[[INFO ] [2021-12-11 21:06:08,785] Step 06 -Verify the result displays exactly 16 items on each page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 20:55:28,656] Step 01 - click to logo amazon -> move home page
+      <![CDATA[[INFO ] [2021-12-11 21:06:14,019]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 20:55:29,842] Step 02 - Select department dropdown
+      <![CDATA[[INFO ] [2021-12-11 21:06:19,191]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 20:55:29,911] Step 03 - input to search textbox
+      <![CDATA[[INFO ] [2021-12-11 21:06:24,354]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 20:55:29,987] Step 04 - click to search button -> move to listPage
+      <![CDATA[[INFO ] [2021-12-11 21:06:29,541]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 20:55:32,131] Step 05 - Select language
+      <![CDATA[[INFO ] [2021-12-11 21:06:34,726]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 20:55:34,665] Step 06 - select 'Publication Date' in Sort dropdown
+      <![CDATA[[INFO ] [2021-12-11 21:06:34,828] Step 01 - click to logo amazon -> move home page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 20:55:34,804] Step 07 - verify the result is sorted by Publication date
+      <![CDATA[[INFO ] [2021-12-11 21:06:37,117] Step 02 - Select department dropdown
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 20:55:35,767]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-12-11 21:06:37,248] Step 03 - input to search textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 20:55:35,769] OS name = windows 10
+      <![CDATA[[INFO ] [2021-12-11 21:06:37,346] Step 04 - click to search button -> move to listPage
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-11 20:55:35,769] Driver instance name = windows 10
+      <![CDATA[[INFO ] [2021-12-11 21:06:39,826] Step 05 - Select language
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-11 21:06:42,193] Step 06 - select 'Publication Date' in Sort dropdown
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-11 21:06:42,304] Step 07 - verify the result is sorted by Publication date
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-11 21:06:43,218]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-11 21:06:43,220] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-11 21:06:43,221] Driver instance name = windows 10
 <br>]]>
     </line>
   </reporter-output>
-  <suite name="Demo" duration-ms="17560" started-at="2021-12-11T13:55:18Z" finished-at="2021-12-11T13:55:36Z">
+  <suite name="Demo" duration-ms="48083" started-at="2021-12-11T14:05:55Z" finished-at="2021-12-11T14:06:43Z">
     <groups>
     </groups>
-    <test name="Run" duration-ms="17560" started-at="2021-12-11T13:55:18Z" finished-at="2021-12-11T13:55:36Z">
+    <test name="Run" duration-ms="48083" started-at="2021-12-11T14:05:55Z" finished-at="2021-12-11T14:06:43Z">
       <class name="com.amazon.demo.demo_01">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.amazon.demo.demo_01@2b27cc70]" name="beforeClass" is-config="true" duration-ms="3600" started-at="2021-12-11T13:55:18Z" finished-at="2021-12-11T13:55:22Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.amazon.demo.demo_01@1cefc4b3]" name="beforeClass" is-config="true" duration-ms="6208" started-at="2021-12-11T14:05:55Z" finished-at="2021-12-11T14:06:02Z">
           <params>
             <param index="0">
               <value>
@@ -87,78 +107,98 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items()[pri:0, instance:com.amazon.demo.demo_01@2b27cc70]" name="demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items" duration-ms="6023" started-at="2021-12-11T13:55:22Z" finished-at="2021-12-11T13:55:28Z">
+        <test-method status="PASS" signature="demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items()[pri:0, instance:com.amazon.demo.demo_01@1cefc4b3]" name="demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items" duration-ms="32667" started-at="2021-12-11T14:06:02Z" finished-at="2021-12-11T14:06:34Z">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 20:55:22,586] Step 01 - Select department dropdown
+              <![CDATA[[INFO ] [2021-12-11 21:06:02,126] Step 01 - Select department dropdown
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 20:55:22,705] Step 02 - Input to search textbox
+              <![CDATA[[INFO ] [2021-12-11 21:06:02,243] Step 02 - Input to search textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 20:55:22,824] Step 03 - Click to search button -> move to listPage
+              <![CDATA[[INFO ] [2021-12-11 21:06:02,393] Step 03 - Click to search button -> move to listPage
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 20:55:26,168] Step 04 - Select language
+              <![CDATA[[INFO ] [2021-12-11 21:06:06,257] Step 04 - Select language
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 20:55:28,489] Step 05 - Verify page have paging
+              <![CDATA[[INFO ] [2021-12-11 21:06:08,749] Step 05 - Verify page have paging
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 20:55:28,526] Step 06 -Verify the result displays exactly 16 items on each page
+              <![CDATA[[INFO ] [2021-12-11 21:06:08,785] Step 06 -Verify the result displays exactly 16 items on each page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-11 21:06:14,019]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-11 21:06:19,191]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-11 21:06:24,354]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-11 21:06:29,541]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-11 21:06:34,726]  -------------------------- PASSED -------------------------- 
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- demo_01_VerifyResultListIsPaginatedIfThereAreMoreThan16Items -->
-        <test-method status="PASS" signature="demo_02_VerifyResultListCanBeSortedOnDemand()[pri:0, instance:com.amazon.demo.demo_01@2b27cc70]" name="demo_02_VerifyResultListCanBeSortedOnDemand" duration-ms="7113" started-at="2021-12-11T13:55:28Z" finished-at="2021-12-11T13:55:35Z">
+        <test-method status="PASS" signature="demo_02_VerifyResultListCanBeSortedOnDemand()[pri:0, instance:com.amazon.demo.demo_01@1cefc4b3]" name="demo_02_VerifyResultListCanBeSortedOnDemand" duration-ms="8392" started-at="2021-12-11T14:06:34Z" finished-at="2021-12-11T14:06:43Z">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 20:55:28,656] Step 01 - click to logo amazon -> move home page
+              <![CDATA[[INFO ] [2021-12-11 21:06:34,828] Step 01 - click to logo amazon -> move home page
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 20:55:29,842] Step 02 - Select department dropdown
+              <![CDATA[[INFO ] [2021-12-11 21:06:37,117] Step 02 - Select department dropdown
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 20:55:29,911] Step 03 - input to search textbox
+              <![CDATA[[INFO ] [2021-12-11 21:06:37,248] Step 03 - input to search textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 20:55:29,987] Step 04 - click to search button -> move to listPage
+              <![CDATA[[INFO ] [2021-12-11 21:06:37,346] Step 04 - click to search button -> move to listPage
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 20:55:32,131] Step 05 - Select language
+              <![CDATA[[INFO ] [2021-12-11 21:06:39,826] Step 05 - Select language
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 20:55:34,665] Step 06 - select 'Publication Date' in Sort dropdown
+              <![CDATA[[INFO ] [2021-12-11 21:06:42,193] Step 06 - select 'Publication Date' in Sort dropdown
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 20:55:34,804] Step 07 - verify the result is sorted by Publication date
+              <![CDATA[[INFO ] [2021-12-11 21:06:42,304] Step 07 - verify the result is sorted by Publication date
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 20:55:35,767]  -------------------------- PASSED -------------------------- 
+              <![CDATA[[INFO ] [2021-12-11 21:06:43,218]  -------------------------- PASSED -------------------------- 
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- demo_02_VerifyResultListCanBeSortedOnDemand -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.amazon.demo.demo_01@2b27cc70]" name="afterClass" is-config="true" duration-ms="717" started-at="2021-12-11T13:55:35Z" finished-at="2021-12-11T13:55:36Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.amazon.demo.demo_01@1cefc4b3]" name="afterClass" is-config="true" duration-ms="718" started-at="2021-12-11T14:06:43Z" finished-at="2021-12-11T14:06:43Z">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 20:55:35,769] OS name = windows 10
+              <![CDATA[[INFO ] [2021-12-11 21:06:43,220] OS name = windows 10
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-11 20:55:35,769] Driver instance name = windows 10
+              <![CDATA[[INFO ] [2021-12-11 21:06:43,221] Driver instance name = windows 10
 <br>]]>
             </line>
           </reporter-output>
